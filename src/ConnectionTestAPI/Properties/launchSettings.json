@@ -13,14 +13,15 @@
       "launchBrowser": true,
       "launchUrl": "api/values",
       "environmentVariables": {
+        "PGSQL_CONNECTION": "User ID=postgres;Password=password;Host=localhost;Port=5432;Database=accountdb;Application Name=Npgsql Test;ConnectionIdleLifetime=5;",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "ConnectionTestAPI": {
       "commandName": "Project",
-      "launchBrowser": true,
       "launchUrl": "http://localhost:5000/api/values",
       "environmentVariables": {
+        "PGSQL_CONNECTION": "User ID=postgres;Password=password;Host=localhost;Port=5432;Database=accountdb;Application Name=Npgsql Test;ConnectionIdleLifetime=5;",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
